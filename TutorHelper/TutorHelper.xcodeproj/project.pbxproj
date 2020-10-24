@@ -39,6 +39,41 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		E176336125442B3700B2DC08 /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				E1A6455B253714DC008B7645 /* SceneDelegate.swift */,
+				E1A64559253714DC008B7645 /* AppDelegate.swift */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		E176336325442B7200B2DC08 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				E1A64567253714DF008B7645 /* LaunchScreen.storyboard */,
+				E1A64565253714DF008B7645 /* Assets.xcassets */,
+				E1A6456A253714DF008B7645 /* Info.plist */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		E176336425442B8E00B2DC08 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				E1A6455F253714DC008B7645 /* Main.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		E176336525442BA600B2DC08 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				E1A6455D253714DC008B7645 /* ViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
 		E1A6454D253714DC008B7645 = {
 			isa = PBXGroup;
 			children = (
@@ -58,13 +93,10 @@
 		E1A64558253714DC008B7645 /* TutorHelper */ = {
 			isa = PBXGroup;
 			children = (
-				E1A64559253714DC008B7645 /* AppDelegate.swift */,
-				E1A6455B253714DC008B7645 /* SceneDelegate.swift */,
-				E1A6455D253714DC008B7645 /* ViewController.swift */,
-				E1A6455F253714DC008B7645 /* Main.storyboard */,
-				E1A64565253714DF008B7645 /* Assets.xcassets */,
-				E1A64567253714DF008B7645 /* LaunchScreen.storyboard */,
-				E1A6456A253714DF008B7645 /* Info.plist */,
+				E176336525442BA600B2DC08 /* ViewControllers */,
+				E176336425442B8E00B2DC08 /* Storyboards */,
+				E176336325442B7200B2DC08 /* Resources */,
+				E176336125442B3700B2DC08 /* Application */,
 				E1A64562253714DC008B7645 /* TutorHelper.xcdatamodeld */,
 			);
 			path = TutorHelper;
@@ -291,7 +323,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = TutorHelper/Info.plist;
+				INFOPLIST_FILE = TutorHelper/Resources/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -309,7 +341,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = TutorHelper/Info.plist;
+				INFOPLIST_FILE = TutorHelper/Resources/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
